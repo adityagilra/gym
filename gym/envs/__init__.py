@@ -85,6 +85,12 @@ register(
 )
 
 register(
+    id='SpringOverDamped-v0',
+    entry_point='gym.envs.classic_control:SpringOverDampedEnv',
+    max_episode_steps=200,
+)
+
+register(
     id='Acrobot-v1',
     entry_point='gym.envs.classic_control:AcrobotEnv',
     max_episode_steps=500,
